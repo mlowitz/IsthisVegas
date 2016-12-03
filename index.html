@@ -123,13 +123,13 @@ display:inline;
       $.getJSON('https://geoip-db.com/json/geoip.php?jsonp=?') 
          .done (function(location)
          {
-             if (location.city == "Las-Vegas")
+             if (location.city == "Las Vegas")
              {
                   $('#status').html("YES YOU ARE IN VEGAS");
              }
              else
              {
-                 $('#status').html("NO THIS IS NOT FUCKING VEGAS-Also its not Canada Trey")
+                 $('#status').html("NO THIS IS NOT FUCKING VEGAS - Also it's not Canada Trey")
              }
                     
          });
